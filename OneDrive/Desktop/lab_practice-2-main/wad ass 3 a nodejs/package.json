@@ -1,0 +1,15 @@
+{
+  "name": "ass-3-a",
+  "version": "1.0.0",
+  "description": "This is wad assignment 3a",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-icons": "^1.10.5",
+    "express": "^4.18.2"
+  }
+}

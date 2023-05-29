@@ -1,0 +1,30 @@
+<div id="center">
+  <div class="float-end">
+    <button type="button" class="btn btn-primary position-relative" (click)="logout()">
+      Log out <i class="bi bi-box-arrow-in-right"></i>
+    </button>
+  </div>
+ 
+
+</div>
+  <h2>User Profile </h2>
+  <div id="content">
+    <div id="margin"> 
+        <h3>  User Information :</h3>
+        <p class="card-text fs-6 fw-bold">
+          # Name :- <span class="text-uppercase">{{ userData.name }}</span>
+        </p>
+        <p class="card-text fs-6 fw-bold">
+          # Email :- <span>{{ userData.email }}</span>
+        </p>
+
+        <p class="card-text fs-6 fw-bold">
+          # Branch :- <span class="text-uppercase">{{ userData.branch }}</span>
+        </p>
+
+        <p class="card-text fs-6 fw-bold">
+          # Gender :- <span class="text-uppercase">{{ userData.gender }}</span>
+        </p>
+         </div>
+      </div>   
+ 

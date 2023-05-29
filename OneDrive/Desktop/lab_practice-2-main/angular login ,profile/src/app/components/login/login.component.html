@@ -1,0 +1,19 @@
+<div id="center"> 
+<div class="register" class="text-center">
+  <main class="form-signin">
+    <form #loginForm='ngForm' (ngSubmit)="login(loginForm)">
+      <h1 class="h3 mb-3 fw-normal">Login</h1>
+
+      <label for="email"> Email Id : </label>
+      <input type="email" class="form-control" id="email" name="email" placeholder="abc@gmail.com" ngModel />
+       <br><br>
+      <label for="password">Password : </label>
+      <input type="password" class="form-control" id="password" name="password" placeholder="Password" ngModel />
+      <br>
+      <button class="w-100 btn btn-lg btn-primary mt-2 d-flex " id="login">Login</button>
+      <p class="mt-5 mb-3 text-muted">Not Registered? <a routerLink="/register">Register Now</a></p>
+    </form>
+  </main>
+</div>
+
+ </div>

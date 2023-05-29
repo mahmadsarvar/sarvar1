@@ -1,0 +1,17 @@
+#center{
+    margin: 0px;
+    text-align: justify;
+}
+button{
+    color:red;
+    text-align: end;
+}
+#content{
+    border: 1px solid gold;
+    margin-right: 150px;
+    margin-left: 60px;
+    
+}
+#margin{
+    margin-left: 50px;
+}

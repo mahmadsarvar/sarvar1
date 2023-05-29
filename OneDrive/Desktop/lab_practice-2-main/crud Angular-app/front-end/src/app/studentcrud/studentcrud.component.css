@@ -1,0 +1,29 @@
+#center{
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+button{
+    color:white;
+    background-color: red;
+    border-radius: 5px;
+}
+#data{
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#margin{
+    margin-left: 70px;
+}
+table,th,td{
+    border: 1px solid white;
+    border-collapse: collapse;
+    border-radius: 5px;
+    padding: 10px;
+}
+th,td{
+    background-color: #96D4D4;
+}
